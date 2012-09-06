@@ -13,21 +13,26 @@
 
     %link{:rel => "stylesheet", :href => "stylesheets/style.css", :media => "all"}
 
-
     / Le fav and touch icons
     %link{:href => "images/favicon.ico", :rel => "shortcut icon"}
     %link{:href => "images/apple-touch-icon.png", :rel => "apple-touch-icon"}
     %link{:href => "images/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}
     %link{:href => "images/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}
   %body
-    .wrap
-      .container
-        %h1 Sketch Lexico
-        = yield
+    .header-wrapper
+      .stripe
+      .header
+        %h1 <span>Sketch</span><br/>Léxico
+        %h2 An illustrated collection of design-related terms in español.
 
-        .footer
-          &copy; 2012 So White Design & Illustration, LLC.  All rights reserved. 
-          
+    .container      
+      = yield
+
+      .footer
+        Want to see your favorite design term in español? Find me @sketchlexico </br>
+        Designed & built by @sowhitedi with additional dev from @masondesu </br>
+        &copy; 2012 So White Design & Illustration, LLC.  All rights reserved. Hosted on Heroku, powered by Sinatra. 
+      
 
 
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}

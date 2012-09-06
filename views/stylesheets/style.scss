@@ -3,3 +3,151 @@
 html {
   -webkit-font-smoothing: antialiased;
 }
+
+body {
+  background: #ffffff url(/images/lightgrainbackground.gif) repeat top left; 
+}
+.header-wrapper {
+  position: absolute;
+  top: 40px;
+  z-index: 100;
+  background-color: #eec843;
+  background-color: rgba(238,200,67,0.3);
+  height: 165px;
+  width: 100%;
+  .stripe {
+    position: absolute;
+    margin-top: 45px;
+    background-color: #eec843;
+    height: 75px;
+    width: 100%;
+  }
+  .header {
+    margin: 63px auto 0;
+    height: 75px;
+    position: relative;
+    width: 860px;
+    h1 {
+      position: absolute;
+      top: -41px;
+      right: 0;
+      font-family: 'cubanonormal';
+      font-size: 94px;
+      letter-spacing: .04em;
+      line-height: 40px;
+      color: black;
+      text-shadow: 4px 4.5px 0 #007FA5;
+      text-align: right;
+      margin-right: 46px;
+
+      span {
+        font-size: 46px;
+        letter-spacing: 0.04em;
+        text-shadow: 2px 2px 0 #007FA5;
+        display: block;
+        margin-bottom: -10px;
+        margin-right: 13px;
+      }
+    }
+    h2 {
+      float: left;
+      font-family: 'PacificoRegular';
+      font-size: 18px;
+      position: absolute;
+      margin-left: 42px;
+      font-weight: normal;
+      color: #000000;
+    }
+  }
+}
+.container {
+    position:relative;
+    height: 600px;
+    width: 860px;
+    padding-top: 250px;
+    background-color: #ffffff;
+    @include box-shadow(0 0 3px rgba(115,99,87,0.1));
+  } 
+
+.blog {
+  position:absolute;
+  margin-top: -20px;
+  margin-left:  42px;
+  h3 {
+    font-family: 'open_sans_semiboldregular';
+    font-size: 26px;
+    color: #007fa5;
+    text-transform: uppercase;
+    font-weight: normal;
+    span {
+      font-family: 'open_sans_semibolditalic';
+      font-size: 14px;
+      color: #585757;  
+      text-transform: none;  
+      font-weight: normal;      
+    }  
+  }  
+  .description {
+    font-family: 'open_sans_semibolditalic';
+    font-size: 12px;
+    color: #585757;  
+    text-transform: none;  
+    font-weight: normal; 
+  }
+  img {
+    max-width: 100%
+  }
+}
+
+.footer {
+  font-family: 'open_sans_semibolditalic';
+  margin-top: 400px;
+  margin-left: 42px;
+  color: black;
+}
+
+@font-face {
+  font-family: 'PacificoRegular';
+  src: url('/fonts/Pacifico-webfont.eot');
+  src: url('/fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/Pacifico-webfont.woff') format('woff'),
+       url('/fonts/Pacifico-webfont.ttf') format('truetype'),
+       url('/fonts/Pacifico-webfont.svg#PacificoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'cubanonormal';
+    src: url('/fonts/cubano-regular-webfont-webfont.eot');
+    src: url('/fonts/cubano-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/cubano-regular-webfont-webfont.woff') format('woff'),
+         url('/fonts/cubano-regular-webfont-webfont.ttf') format('truetype'),
+         url('/fonts/cubano-regular-webfont-webfont.svg#cubanonormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sans_semiboldregular';
+    src: url('/fonts/opensans-semibold-webfont.eot');
+    src: url('/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('/fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('/fonts/opensans-semibold-webfont.svg#open_sans_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sans_semibolditalic';
+    src: url('/fonts/opensans-semibolditalic-webfont.eot');
+    src: url('/fonts/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/opensans-semibolditalic-webfont.woff') format('woff'),
+         url('/fonts/opensans-semibolditalic-webfont.ttf') format('truetype'),
+         url('/fonts/opensans-semibolditalic-webfont.svg#open_sans_semibolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
