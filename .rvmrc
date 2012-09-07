@@ -1,1 +1,1 @@
-rvm 1.9.2@helfang
+rvm use 1.9.2@helfang --create
