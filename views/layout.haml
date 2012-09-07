@@ -1,45 +1,43 @@
 !!!
-%html{:lang => "en"}
+%html
   %head
-    %meta{:charset => "utf-8"}
+    %meta{charset: 'utf-8'}
     %title #{@title +' - ' unless !@title}SketchLexico
     / %meta{:name=>"viewport", :content=>"width=device-width,user-scalable=no"}
-    %meta{:name=>"viewport", :content=>"width=device-width"}
-    %meta{:content => "An illustrated collection of design related terms in español.", :name => "description"}
-    %meta{:content => "Rebecca White", :name => "author"}
+    %meta{name: 'viewport', content: 'width=device-width'}
+    %meta{content: 'An illustrated collection of design related terms in Español.', name: 'description'}
+    %meta{content: 'Rebecca White', name: 'author'}
     / Le HTML5 shim, for IE6-8 support of HTML elements
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 
-    %link{:rel => "stylesheet", :href => "stylesheets/style.css", :media => "all"}
+    %link{rel: 'stylesheet', type: 'text/css', href: 'stylesheets/style.css', media: 'all'}
 
     / Le fav and touch icons
-    %link{:href => "images/favicon.ico", :rel => "shortcut icon"}
-    %link{:href => "images/apple-touch-icon.png", :rel => "apple-touch-icon"}
-    %link{:href => "images/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}
-    %link{:href => "images/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}
+    %link{href: 'images/favicon.ico', rel: 'shortcut icon'}
+    %link{href: 'images/apple-touch-icon.png', rel: 'apple-touch-icon'}
+    %link{href: 'images/apple-touch-icon-72x72.png', rel: 'apple-touch-icon', sizes: '72x72'}
+    %link{href: 'images/apple-touch-icon-114x114.png', rel: 'apple-touch-icon', sizes: '114x114'}
   %body
     .header-wrapper
+      .locales
+        %a{href: '/'} English
+        |
+        %a{href: '/es'} Español
       .stripe
       .header
         %h1 <span>Sketch</span><br/>Léxico
-        %h2 An illustrated collection of design-related terms in español.
+        %h2= t('title_phrase')
 
-    .container      
+    .container
       = yield
-
       .footer
         .footertext
-          Want to see your favorite design term in español? Find me <a href="http://twitter.com/sketchlexico" target="_blank">@sketchlexico</a> </br>
-          Designed, developed, and illustrated by <a href="http://twitter.com/sowhitedi" target="_blank">@sowhitedi</a> with about 5 minutes of additional dev from <a href="http://twitter.com/masondesu" target="_blank">@masondesu</a>. </br>
-          &copy; 2012 <a href="http://sowhitedesign.com/" target="_blank">So White Design & Illustration, LLC. </a>  All rights reserved. Hosted on <a href="http://heroku.com" target="_blank">Heroku</a>, powered by <a href="http://sinatrarb.com" target="_blank">Sinatra</a>. 
-      
+          = t('footer_html')
 
-
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
+    %script{src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', type: 'text/javascript'}
 
   :javascript
-
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-34645732-1']);
     _gaq.push(['_setDomainName', 'sketchlexico.com']);

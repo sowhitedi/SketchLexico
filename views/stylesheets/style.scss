@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: #ffffff url(/images/lightgrainbackground.gif) repeat top left; 
+  background: #ffffff url(/images/lightgrainbackground.gif) repeat top left;
 }
 .header-wrapper {
   position: absolute;
@@ -16,6 +16,11 @@ body {
   height: 165px;
   width: 100%;
   min-width: 860px;
+  .locales {
+    float: right;
+    width: 960px;
+    margin: 10px auto;
+  }
   .stripe {
     position: absolute;
     margin-top: 45px;
@@ -69,7 +74,7 @@ body {
   @include border-radius(0 0 15px 15px);
   @include box-shadow(0 0 3px rgba(241,218,158,0.45));
   margin-bottom: 75px;
-} 
+}
 
 .blog {
   margin-top: -20px;
@@ -83,17 +88,17 @@ body {
     span {
       font-family: 'open_sans_semibolditalic';
       font-size: 14px;
-      color: #585757;  
-      text-transform: none;  
-      font-weight: normal;      
-    }  
-  }  
+      color: #585757;
+      text-transform: none;
+      font-weight: normal;
+    }
+  }
   .description {
     font-family: 'open_sans_semibolditalic';
     font-size: 12px;
-    color: #585757;  
-    text-transform: none;  
-    font-weight: normal; 
+    color: #585757;
+    text-transform: none;
+    font-weight: normal;
   }
   img {
     margin-top: 20px;
@@ -102,12 +107,12 @@ body {
   }
 }
 
-.footer { 
+.footer {
   margin-top: 40px;
   margin-left: 0px;
   padding-left: 42px;
   padding-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   background-color: #f3d87b;
   @include border-radius(0 0 15px 15px);
   @include box-shadow(0 0 3px rgba(241,218,158,0.45));
