@@ -14,9 +14,7 @@ configure :production do
 end
 
 get '/' do
-  set :locales, File.join(File.dirname(__FILE__), "config/locales/en.yml")
-  Sinatra.register Sinatra::I18n
-  haml :index
+  redirect '/en'
 end
 
 # LOCALE STUFF
