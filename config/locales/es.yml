@@ -1,5 +1,6 @@
 en:
-  title_phrase: "Una colección ilustrado de diseño-relacionado llama en español."
-  footer_html: "¿Quiere ver su término predilecto de diseño en el español? Encuéntreme <a href='http://twitter.com/sketchlexico' target='_blank'>@sketchlexico</a> </br> Diseñado, desarrollado, e ilustrado por <a href='http://twitter.com/sowhitedi' target='_blank'>@sowhitedi</a> con acerca de 5 minutos del desarrollo adicional de <a href='http://twitter.com/masondesu' target='_blank'>@masondesu</a>. </br> &copy; 2012 <a href='http://sowhitedesign.com/' target='_blank'>So White Design & Illustration, LLC.</a> Todos los derechos reservaron. Esta aplicación es acogida por <a href='http://heroku.com'' target='_blank'>Heroku</a>, y es enchufado por <a href='http://sinatrarb.com' target='_blank'>Sinatra</a>."
-  cartel: "En inglés, la palabra es POSTER. Oye, no es sólo para el narcos."
-  letrero: "Significa SIGN. Esto es el nombre de un hotel verdadero, también. Traduzca eso."
+title_phrase: "Una colección ilustrada de términos de diseño en español."
+footer_html: "¿Quieres ver tu palabra favorita en una ilustración? Encuéntreme <a href='http://twitter.com/sketchlexico' target='_blank'>@sketchlexico</a> </br> Diseñado, desarrollado, e ilustrado por <a href='http://twitter.com/sowhitedi' target='_blank'>@sowhitedi</a> con poquito del desarrollo adicional de <a href='http://twitter.com/masondesu' target='_blank'>@masondesu</a>. </br> &copy; 2012 <a href='http://sowhitedesign.com/' target='_blank'>So White Design & Illustration, LLC.</a> All rights reserved. Hosted on <a href='http://heroku.com'' target='_blank'>Heroku</a>, powered by <a href='http://sinatrarb.com' target='_blank'>Sinatra</a>."
+cartel: "En ingles, la palabra es POSTER."
+letrero: "SIGN significa LETRERO. También, este es el nombre verdadero de un hotel in Latinoamerica."
+etiqueta: "Mira este LABEL. El diseño geometrico aquí es un símbolo de cultura maya para BUTTERFLY (mariposa)."
