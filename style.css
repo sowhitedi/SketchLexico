@@ -5596,32 +5596,32 @@ body {
 
 @font-face {
   font-family: 'PacificoRegular';
-  src: url("/SketchLexico/fonts/Pacifico-webfont.eot");
-  src: url("/SketchLexico/fonts/Pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("/SketchLexico/fonts/Pacifico-webfont.woff") format("woff"), url("/SketchLexico/fonts/Pacifico-webfont.ttf") format("truetype"), url("/SketchLexico/fonts/Pacifico-webfont.svg#PacificoRegular") format("svg");
+  src: url("fonts/Pacifico-webfont.eot");
+  src: url("fonts/Pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Pacifico-webfont.woff") format("woff"), url("fonts/Pacifico-webfont.ttf") format("truetype"), url("fonts/Pacifico-webfont.svg#PacificoRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'cubanonormal';
-  src: url("/SketchLexico/fonts/cubano-regular-webfont-webfont.eot");
-  src: url("/SketchLexico/fonts/cubano-regular-webfont-webfont.eot?#iefix") format("embedded-opentype"), url("/SketchLexico/fonts/cubano-regular-webfont-webfont.woff") format("woff"), url("/SketchLexico/fonts/cubano-regular-webfont-webfont.ttf") format("truetype"), url("/SketchLexico/fonts/cubano-regular-webfont-webfont.svg#cubanonormal") format("svg");
+  src: url("fonts/cubano-regular-webfont-webfont.eot");
+  src: url("fonts/cubano-regular-webfont-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/cubano-regular-webfont-webfont.woff") format("woff"), url("fonts/cubano-regular-webfont-webfont.ttf") format("truetype"), url("fonts/cubano-regular-webfont-webfont.svg#cubanonormal") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'open_sans_semiboldregular';
-  src: url("/SketchLexico/fonts/opensans-semibold-webfont.eot");
-  src: url("/SketchLexico/fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/SketchLexico/fonts/opensans-semibold-webfont.woff") format("woff"), url("/SketchLexico/fonts/opensans-semibold-webfont.ttf") format("truetype"), url("/SketchLexico/fonts/opensans-semibold-webfont.svg#open_sans_semiboldregular") format("svg");
+  src: url("fonts/opensans-semibold-webfont.eot");
+  src: url("fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/opensans-semibold-webfont.woff") format("woff"), url("fonts/opensans-semibold-webfont.ttf") format("truetype"), url("fonts/opensans-semibold-webfont.svg#open_sans_semiboldregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'open_sans_semibolditalic';
-  src: url("/SketchLexico/fonts/opensans-semibolditalic-webfont.eot");
-  src: url("/SketchLexico/fonts/opensans-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("/SketchLexico/fonts/opensans-semibolditalic-webfont.woff") format("woff"), url("/SketchLexico/fonts/opensans-semibolditalic-webfont.ttf") format("truetype"), url("/SketchLexico/fonts/opensans-semibolditalic-webfont.svg#open_sans_semibolditalic") format("svg");
+  src: url("fonts/opensans-semibolditalic-webfont.eot");
+  src: url("fonts/opensans-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/opensans-semibolditalic-webfont.woff") format("woff"), url("fonts/opensans-semibolditalic-webfont.ttf") format("truetype"), url("fonts/opensans-semibolditalic-webfont.svg#open_sans_semibolditalic") format("svg");
   font-weight: normal;
   font-style: normal;
 }
